@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="client/style.css" /> 
+    <script src="client/button_fen.js"></script>
+    <script src="client/button_pgn.js"></script>
+    <script src="client/button_extra.js"></script> 
+</head>
+<body>
+<h1>Chess Cheating Detection Program</h1>
+<div class="row">
+    <div class="column1">
+        <p>
+            <button onclick="fen('')">Analyse FEN+Move</button>
+        </p>
+        <p>
+            <button onclick="pgn()">Analyse PGN File</button>
+        </p>
+        <p>
+            <button onclick="lichess()">Generate FEN or PGN on Lichess</button>
+        </p>
+        <p>
+            <button onclick="manual()">View User Manual</button>
+        </p>
+    </div>
+    <div class="column2" id="1">
+        Welcome to the Chess Cheating Detection Program. Please select one of the options to start.
+    </div>
+</div>    
+</body>
+
+</html>

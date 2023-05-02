@@ -1,0 +1,86 @@
+body {
+    background-image: url("chess_pic.jpg");
+    background-size: cover;           
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 2%;
+}
+
+.column1 button {
+    transition-duration: 0.4s;
+    background-color: #202020;
+    border: none;
+    color: whitesmoke;
+    padding: 5% 5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    width: 100%;
+}
+
+.column2 button {
+    transition-duration: 0.4s;
+    background-color: #202020;
+    border: none;
+    color: whitesmoke;
+    padding: 5%, 5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    width: 20%;
+    margin: 2%;
+}
+
+.column2 li {
+    text-align: left;
+    list-style-type: none;
+    font-size: 80%;
+}
+
+.column2 ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+input{
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 125%;
+    width: 80%;
+    text-align: center;
+}
+  
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+button:hover {
+    background-color: darkgray;
+    box-shadow: 0 5% 5% 0 rgba(0,0,0,0.24), 0 5% 5% 0 rgba(0,0,0,0.19);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+  
+.column2 {
+    flex-grow: 5;
+    color: darkgray;
+    text-align: center; 
+    font-size: 200%;
+}
+
+.column1 {
+    text-align : center;
+}
+
+object {
+    width: 80%;
+    height: 250%;
+}
